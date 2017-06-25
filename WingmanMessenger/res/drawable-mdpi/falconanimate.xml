@@ -1,0 +1,25 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+    <item
+        android:drawable= "@drawable/falconflatfinal"
+        android:duration="10"/>
+    <item
+        android:drawable= "@drawable/falconflatfinal1"
+        android:duration="60"/>
+    <item
+         android:drawable= "@drawable/falconflatfinal2"
+        android:duration="60"/>
+    <item
+        android:drawable= "@drawable/falconflatfinal1"
+        android:duration="60"/>
+    <item
+        android:drawable= "@drawable/falconflatfinal"
+        android:duration="60"/>
+    
+    <!-- Reset to original -->
+    <item
+         android:drawable= "@drawable/falconflatfinal"
+        android:duration="10"/>
+
+</animation-list>
